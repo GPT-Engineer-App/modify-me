@@ -11,6 +11,9 @@ function Navbar() {
         <Link as={RouterLink} to="/about" color="white" fontWeight="bold">
           About Us
         </Link>
+        <Link as={RouterLink} to="/canvas" color="white" fontWeight="bold">
+          Canvas
+        </Link>
       </Flex>
     </Box>
   );
